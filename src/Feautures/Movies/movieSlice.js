@@ -1,10 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 const initialState = {
-  value: 0,
-}
+  movies: [],
+}  
 export const counterSlice = createSlice({
-  name: 'counter',
+  name: 'movies',
   initialState,
   reducers: {
  
